@@ -1,0 +1,219 @@
+.bigSlider_box {
+  margin: 0 auto;
+  width: 70%;
+  padding-block: -3.5rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.bigSlider_box_left {
+  grid-column: 1/6;
+  grid-row: 1/-1;
+  background-color: var(--main-bg-color);
+  box-shadow: var(--box-shadow-2);
+  padding: 2rem;
+  z-index: 1111;
+  height: 80vh;
+  border-radius: 1rem;
+}
+
+.bigSlider_box_left h2 {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 0;
+}
+
+.bigSlider_box_right {
+  grid-column: 1/6;
+  grid-row: 1/2;
+  padding: 1rem;
+  height: -70vh;
+  background-color: var(--main-bg-color);
+  border-radius: 2.5rem;
+  box-shadow: var(--box-shadow-2);
+  margin-right: -70rem;
+  width: 60rem;
+}
+
+/* creator section */
+
+.bigSlider_box_left_creator {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.bigSlider_box_left_creator_profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bigSlider_box_left_creator_profile_img {
+  border-radius: 50%;
+}
+
+.bigSlider_box_left_creator_profile_info {
+  line-height: 0.5;
+}
+
+.bigSlider_box_left_creator_profile_info p {
+  margin-bottom: -0.9rem;
+  margin-top: 1rem;
+}
+
+.bigSlider_box_left_creator_collection {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bigSlider_box_left_creator_collection_icon {
+  font-size: 2rem;
+}
+
+.bigSlider_box_left_creator_collection_info {
+  line-height: 0;
+}
+
+.bigSlider_box_left_bidding_box {
+  border: 3px solid var(--shadow-dark-color);
+  margin-block: 2rem;
+  padding: 0 2rem;
+  border-radius: 0.5rem;
+}
+.bigSlider_box_left_bidding_box_auction {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bigSlider_box_left_bidding_box small {
+  background-color: var(--shadow-dark-color);
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.bigSlider_box_left_bidding_box_icon {
+  font-size: 2rem;
+}
+
+.bigSlider_box_left_bidding_box_timer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+  padding: 0rem 0rem 0rem 0;
+  border-bottom: 1px solid var(--shadow-dark-color);
+}
+
+.bigSlider_box_left_bidding_box_timer_item p {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.bigSlider_box_left_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-block: 1.5rem 0rem;
+}
+
+.bigSlider_box_left_sliderBtn {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  gap: 2.5rem;
+}
+
+.bigSlider_box_left_sliderBtn_icon {
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.bigSlider_box_left_sliderBtn_icon:hover {
+  background-color: var(--shadow-dark-color);
+  border-radius: 25%;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+}
+
+/* right section */
+
+.bigSlider_box_right_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bigSlider_box_right_box_img {
+  border-radius: 2rem;
+  width: 500px;
+  height: 80vh;
+  margin-right: -23.5rem;
+  padding: 1rem;
+}
+
+.bigSlider_box_right_box_like {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  background-color: var(--icons-color);
+  color: var(--shadow-dark-color);
+  padding: 0rem 0.5rem;
+  border-radius: 5rem;
+}
+@media screen and (max-width: 65rem) {
+  .bigSlider_box {
+    width: 90%;
+    padding-top: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .bigSlider_box_left {
+    height: 80vh;
+    padding: 1.5rem;
+  }
+
+  .bigSlider_box_right {
+    margin-top: -20rem;
+  }
+
+  .bigSlider_box_left_creator {
+    gap: 1rem;
+    grid-template-columns: 1.8fr 1fr;
+  }
+
+  .bigSlider_box_left_creator_profile_info {
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+  }
+
+  .bigSlider_box_left_creator_collection_icon {
+    font-size: 1.5rem;
+  }
+
+  .bigSlider_box_left_creator_collection_info {
+    font-size: 0.8rem;
+  }
+
+  .bigSlider_box_left_bidding_box_timer {
+    gap: 2rem;
+  }
+
+  .bigSlider_box_left_bidding_box_timer p {
+    font-size: 1rem;
+  }
+}

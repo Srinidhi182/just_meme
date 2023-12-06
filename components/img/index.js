@@ -8,7 +8,7 @@ import hero from "./hero.png";
 import musicwave from "./musicwave.png";
 import nft_1 from "./nft_1.png";
 import nftimage1 from "./nftimage1.png";
-import nftimae2 from "./nftimage2.png";
+import nftimage2 from "./nftimage2.png";
 import nftimage3 from "./nftimage3.png";
 import pg6 from "./pg6.png";
 import pg7 from "./pg7.png";
@@ -34,15 +34,17 @@ import twitter from "./twitter.svg";
 import vimeo from "./vimeo.svg";
 import youtube from "./youtube.svg";
 import logo from "./logo.png";
+import nftvideo from "./nftvideo.png";
 
 export default {
   logo,
   update,
   musicwave,
   nftimage1,
-  nftimae2,
+  nftimage2,
   nftimage3,
   nft_1,
+  nftvideo,
   background1,
   background2,
   background3,
