@@ -7,10 +7,110 @@ import {
 // Internal import
 import Style from "./Follower.module.css";
 import FollowerCard from "./FollowerCard/FollowerCard";
+import image from "../img";
 const Follower = () => {
-  const CardArray = [1, 2, 3, 4, 5, 6, 7, 8];
-  const FollowingArray = [1, 2, 3, 4, 5, 6];
-  const NewsArray = [1, 2, 3, 4, 5];
+  const CardArray = [
+    {
+      background: image.background1,
+      user: image.user1,
+    },
+    {
+      background: image.background2,
+      user: image.user2,
+    },
+    {
+      background: image.background3,
+      user: image.user3,
+    },
+    {
+      background: image.bg4,
+      user: image.user4,
+    },
+    {
+      background: image.bg5,
+      user: image.user5,
+    },
+    {
+      background: image.background1,
+      user: image.user6,
+    },
+    {
+      background: image.background2,
+      user: image.user8,
+    },
+    {
+      background: image.background3,
+      user: image.user9,
+    },
+  ];
+  const FollowingArray = [
+    {
+      background: image.background1,
+      user: image.user1,
+    },
+    {
+      background: image.background2,
+      user: image.user2,
+    },
+    {
+      background: image.background3,
+      user: image.user3,
+    },
+    {
+      background: image.bg4,
+      user: image.user4,
+    },
+    {
+      background: image.bg5,
+      user: image.user5,
+    },
+    {
+      background: image.background1,
+      user: image.user6,
+    },
+    {
+      background: image.background2,
+      user: image.user8,
+    },
+    {
+      background: image.background3,
+      user: image.user9,
+    },
+  ];
+  const NewsArray = [
+    {
+      background: image.background1,
+      user: image.user1,
+    },
+    {
+      background: image.background2,
+      user: image.user2,
+    },
+    {
+      background: image.background3,
+      user: image.user3,
+    },
+    {
+      background: image.bg4,
+      user: image.user4,
+    },
+    {
+      background: image.bg5,
+      user: image.user5,
+    },
+    {
+      background: image.background1,
+      user: image.user6,
+    },
+    {
+      background: image.background2,
+      user: image.user8,
+    },
+    {
+      background: image.background3,
+      user: image.user9,
+    },
+  ];
 
   const [popular, setPopular] = useState(true);
   const [following, setFollowing] = useState(false);
