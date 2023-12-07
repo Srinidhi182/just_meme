@@ -62,7 +62,7 @@ const AuthorProfileCard = () => {
 
         <div className={Style.AuthorProfileCard_box_info}>
           <h2>
-            Dony Herrera{""}{" "}
+            sriii{""}{" "}
             <span>
               <MdVerified />
             </span>{" "}
@@ -152,7 +152,7 @@ const AuthorProfileCard = () => {
                 <MdOutlineReportProblem />
               </span>{" "}
               {""}
-              Report abouse
+              Report
             </p>
           )}
         </div>

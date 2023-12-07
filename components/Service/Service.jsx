@@ -30,7 +30,7 @@ const Service = () => {
           <p className={Style.service_box_item_step}>
             <span>Step 2</span>
           </p>
-          <h3>Filter And Discover</h3>
+          <h3>Sell , Buy or Auction NFT's</h3>
           <p>
             Connect with wallet, discover, buy NFT's , sell your NFT's and earn
             money...
@@ -42,7 +42,7 @@ const Service = () => {
           <p className={Style.service_box_item_step}>
             <span>Step 3</span>
           </p>
-          <h3>connect your wallet</h3>
+          <h3>Connect Your Wallet</h3>
           <p>
             Connect with wallet, discover, buy NFT's , sell your NFT's and earn
             money...
@@ -54,7 +54,7 @@ const Service = () => {
           <p className={Style.service_box_item_step}>
             <span>Step 4</span>
           </p>
-          <h3>start trading...</h3>
+          <h3>You owned this NFT now !!</h3>
           <p>
             Connect with wallet, discover, buy NFT's , sell your NFT's and earn
             money...

@@ -63,7 +63,7 @@ const Filter = () => {
           <button onClick={() => {}}>NFTs</button>
           <button onClick={() => {}}>Arts</button>
           <button onClick={() => {}}>Musics</button>
-          <button onClick={() => {}}>Sports</button>
+          <button onClick={() => {}}>Gaming</button>
           <button onClick={() => {}}>Photography</button>
         </div>
 

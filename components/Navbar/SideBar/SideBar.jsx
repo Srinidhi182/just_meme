@@ -147,7 +147,7 @@ const SideBar = ({ setOpenSideMenu }) => {
             <div className={Style.sideBar_discover}>
               {discover.map((el, i) => (
                 <p key={i + 1}>
-                  <Link href={{ pathname: "${el.link}" }}>{el.name}</Link>
+                  <Link href={{ pathname: `${el.link}` }}>{el.name}</Link>
                 </p>
               ))}
             </div>
@@ -167,7 +167,7 @@ const SideBar = ({ setOpenSideMenu }) => {
             <div className={Style.sideBar_discover}>
               {helpCenter.map((el, i) => (
                 <p key={i + 1}>
-                  <Link href={{ pathname: "${el.link}" }}>{el.name}</Link>
+                  <Link href={{ pathname: `${el.link}` }}>{el.name}</Link>
                 </p>
               ))}
             </div>

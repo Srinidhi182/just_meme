@@ -15,6 +15,7 @@ import AudioLive from "./Audiolive/AudioLive";
 import Slider from "./Slider/Slider";
 import Brand from "./Brand/Brand";
 import Video from "./Video/Video";
+import Like from "./LikeProfile/LikeProfile";
 export {
   Button,
   Footer,
@@ -32,5 +33,6 @@ export {
   AudioLive,
   Slider,
   Brand,
+  Like,
   Video,
 };
