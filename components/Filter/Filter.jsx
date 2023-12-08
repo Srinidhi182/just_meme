@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import {
   FaFilter,
   FaAngleDown,
@@ -14,7 +14,7 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import { MdVerified } from "react-icons/md";
 import { TiTick } from "react-icons/ti";
 // Internal Import
-import image from "../img";
+// import image from "../img";
 import Style from "./Filter.module.css";
 
 const Filter = () => {

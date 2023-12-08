@@ -19,8 +19,8 @@ const CollectionProfile = () => {
           <Image
             src={image.nft_1}
             alt="nft image"
-            width={800}
-            height={800}
+            width={500}
+            height={500}
             className={Style.collectionProfile_box_left_img}
           />
 

@@ -177,7 +177,7 @@ const SideBar = ({ setOpenSideMenu }) => {
 
       <div className={Style.sideBar_button}>
         <Button btnName="Create" handleClick={() => {}} />
-        <Button btnName="Connect Wallet" hhandleClick={() => {}} />
+        <Button btnName="Connect Wallet" handleClick={() => {}} />
         {/* for now it will be empty function once smart contract is integrated we can invoke the function from it. */}
       </div>
     </div>

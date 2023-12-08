@@ -11,7 +11,7 @@ const Banner = ({ bannerImage }) => {
           src={bannerImage}
           objectFit="cover"
           alt="background"
-          width={1600}
+          width={1200}
           height={300}
         />
       </div>
@@ -21,7 +21,7 @@ const Banner = ({ bannerImage }) => {
           src={bannerImage}
           objectFit="cover"
           alt="background"
-          width={1600}
+          width={500}
           height={900}
         />
       </div>
