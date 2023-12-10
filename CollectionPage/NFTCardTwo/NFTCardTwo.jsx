@@ -7,6 +7,7 @@ import { MdVerified, MdTimer } from "react-icons/md";
 //INTERNAL IMPORT
 import Style from "./NFTCardTwo.module.css";
 import { LikeProfile } from "../../components/componentindex";
+
 const NFTCardTwo = ({ NFTData }) => {
   const [like, setLike] = useState(false);
   const [likeInc, setLikeInc] = useState(21);

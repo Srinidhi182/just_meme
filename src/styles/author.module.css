@@ -1,25 +1,20 @@
-.AuthorNFTCardBox {
-  width: 100%;
-  margin-bottom: 5rem;
-}
-
-.AuthorNFTCardBox_box {
+.author_box {
   width: 80%;
-  margin: 0 auto;
+  margin: 0.5 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0.5rem;
+  gap: 0rem;
+  margin-top: 3rem;
 }
-
 @media screen and (max-width: 35em) {
-  .AuthorNFTCardBox_box {
+  .author_box {
     width: 90%;
     grid-template-columns: 1fr;
   }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .AuthorNFTCardBox_box {
+  .author_box {
     width: 90%;
     grid-template-columns: repeat(2, 1fr);
   }
